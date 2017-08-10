@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/make_spinner" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/make_spinner"
+        android:layout_alignParentStart="true"
+        android:id="@+id/model_spinner" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/model_spinner"
+        android:layout_alignEnd="@+id/description_editText"
+        android:id="@+id/registrationNo_editText"
+        android:hint="@string/registration_no"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:id="@+id/engineSize_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/registrationNo_editText"
+        android:hint="@string/engine_size"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/description_editText"
+        android:layout_below="@+id/engineSize_editText"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/description"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/from"
+        android:id="@+id/from_button"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/to_button"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@+id/description_editText"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:text="@string/to"
+        android:id="@+id/to_button"
+        android:layout_below="@+id/description_editText"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="5dp"
+        android:textAlignment="textStart" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/from_button"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/price_editText"
+        android:hint="@string/price"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:layout_below="@+id/price_editText"
+        android:layout_alignStart="@+id/description_editText"
+        android:id="@+id/address_editText"
+        android:hint="@string/address"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address_editText"
+        android:id="@+id/city_editText"
+        android:hint="@string/city"
+        android:textAlignment="center"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        android:layout_marginTop="5dp"
+        android:id="@+id/car_image1"
+        android:background="@color/cream"
+        android:layout_below="@+id/city_editText"
+        android:layout_toStartOf="@+id/car_image2"
+        android:layout_marginRight="20dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        android:id="@+id/car_image2"
+        android:background="@color/cream"
+        android:layout_alignTop="@+id/car_image3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/post_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/car_image3"
+        android:id="@+id/post_button" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery"
+        android:id="@+id/car_image3"
+        android:background="@color/cream"
+        android:layout_marginLeft="20dp"
+        android:layout_alignTop="@+id/car_image1"
+        android:layout_alignEnd="@+id/to_button"
+        android:layout_marginEnd="14dp" />
+
+</RelativeLayout>

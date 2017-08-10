@@ -1,0 +1,418 @@
+<resources>
+    <!-- LoginActivity strings -->
+    <string name="app_name">AirCarBusiness</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <!-- RegisterActivity strings -->
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Create an account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="address">Address</string>
+    <string name="town">Town / City</string>
+    <string name="county">County / Province</string>
+    <string name="country">Country</string>
+
+    <!--MyCarsFragment strings -->
+    <string name="post_car">Post a car</string>
+
+    <string-array name="makeArray">
+        <item>Any Make</item>
+        <item>Alfa Romeo</item>
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Fiat</item>
+        <item>Ford</item>
+        <item>Honda</item>
+        <item>Hyundai</item>
+        <item>Lexus</item>
+        <item>Mazda</item>
+        <item>Mercedes-Benz</item>
+        <item>Nissan</item>
+        <item>Opel</item>
+        <item>Peugeot</item>
+        <item>Seat</item>
+        <item>Volvo</item>
+    </string-array>
+
+    <string-array name="emptyArray">
+        <item>Any Model</item>
+    </string-array>
+
+    <string-array name="alfaRomeoArray">
+        <item>Any Model</item>
+        <item>145</item>
+        <item>146</item>
+        <item>147</item>
+        <item>156</item>
+        <item>159</item>
+        <item>166</item>
+        <item>Alfasud</item>
+        <item>Brera</item>
+        <item>Giulietta</item>
+        <item>GT</item>
+        <item>Mito</item>
+        <item>Spider</item>
+    </string-array>
+
+    <string-array name="audiArray">
+        <item>Any Model</item>
+        <item>80</item>
+        <item>100</item>
+        <item>A1</item>
+        <item>A2</item>
+        <item>A3</item>
+        <item>A4</item>
+        <item>A5</item>
+        <item>A6</item>
+        <item>A7</item>
+        <item>Q3</item>
+        <item>Q5</item>
+        <item>Q7</item>
+        <item>R8</item>
+        <item>RS4</item>
+        <item>RS5</item>
+        <item>RS6</item>
+        <item>S3</item>
+        <item>S4</item>
+        <item>S5</item>
+        <item>S8</item>
+        <item>TT</item>
+        <item>TTS</item>
+    </string-array>
+
+    <string-array name="bmwArray">
+        <item>Any Model</item>
+        <item>1-series</item>
+        <item>2-series</item>
+        <item>3-series</item>
+        <item>4-series</item>
+        <item>5-series</item>
+        <item>6-series4</item>
+        <item>7-series</item>
+        <item>8-series</item>
+        <item>i3</item>
+        <item>i8</item>
+        <item>M3</item>
+        <item>M4</item>
+        <item>M5</item>
+        <item>M6</item>
+        <item>X1</item>
+        <item>X3</item>
+        <item>X4</item>
+        <item>X5</item>
+        <item>X6</item>
+        <item>Z3</item>
+        <item>Z4</item>
+    </string-array>
+
+    <string-array name="fiatArray">
+        <item>Any Model</item>
+        <item>125</item>
+        <item>126p</item>
+        <item>500</item>
+        <item>Bravo</item>
+        <item>Coupe</item>
+        <item>Punto</item>
+        <item>Uno</item>
+    </string-array>
+
+    <string-array name="fordArray">
+        <item>Any Model</item>
+        <item>Anglia</item>
+        <item>B-MAX</item>
+        <item>Cargo</item>
+        <item>C-Max</item>
+        <item>Cougar</item>
+        <item>ECOSPORT</item>
+        <item>Escort</item>
+        <item>Fiesta</item>
+        <item>Focus</item>
+        <item>GT</item>
+        <item>KA</item>
+        <item>Mondeo</item>
+        <item>Mustang</item>
+        <item>S-MAX</item>
+        <item>Transit</item>
+    </string-array>
+
+    <string-array name="hondaArray">
+        <item>Any Model</item>
+        <item>Accord</item>
+        <item>Civic</item>
+        <item>CR</item>
+        <item>FR</item>
+        <item>HR</item>
+        <item>Insight</item>
+        <item>Integra</item>
+        <item>Stepwagon</item>
+    </string-array>
+
+    <string-array name="hyundaiArray">
+        <item>Any Model</item>
+        <item>Accent</item>
+        <item>Amica</item>
+        <item>Coupe</item>
+        <item>i10</item>
+        <item>i20</item>
+        <item>i30</item>
+        <item>i40</item>
+        <item>i800</item>
+        <item>Montana</item>
+        <item>Sonata</item>
+        <item>Tucson</item>
+    </string-array>
+
+    <string-array name="lexusArray">
+        <item>Any Model</item>
+        <item>CT</item>
+        <item>GS</item>
+        <item>IS</item>
+        <item>LS</item>
+        <item>RX</item>
+        <item>SC</item>
+        <item>Soarer</item>
+    </string-array>
+
+    <string-array name="mazdaArray">
+        <item>Any Model</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>6</item>
+        <item>CX-3</item>
+        <item>CX-5</item>
+        <item>CX-7</item>
+        <item>MPV</item>
+        <item>MX-3</item>
+        <item>MX-5</item>
+        <item>MX-6</item>
+        <item>RX-7</item>
+        <item>RX-8</item>
+    </string-array>
+
+    <string-array name="mercedesArray">
+        <item>Any Model</item>
+        <item>190</item>
+        <item>200</item>
+        <item>220</item>
+        <item>230</item>
+        <item>240</item>
+        <item>250</item>
+        <item>280</item>
+        <item>300</item>
+        <item>320</item>
+        <item>350</item>
+        <item>380</item>
+        <item>500</item>
+        <item>600</item>
+        <item>A-Class</item>
+        <item>B-Class</item>
+        <item>C-Class</item>
+        <item>CE-Class</item>
+        <item>CL-Class</item>
+        <item>CLA-Class</item>
+        <item>CLK-Class</item>
+        <item>CLS-Class</item>
+        <item>E-Class</item>
+        <item>G-Class</item>
+        <item>GLA</item>
+        <item>R-Class</item>
+        <item>S-Class</item>
+        <item>SLK-Class</item>
+        <item>V-Class</item>
+
+
+    </string-array>
+
+    <string-array name="nissanArray">
+        <item>Any Model</item>
+        <item>100 NX</item>
+        <item>103 NX</item>
+        <item>Almera</item>
+        <item>Cube</item>
+        <item>D21</item>
+        <item>D22</item>
+        <item>GT-R</item>
+        <item>Maxima</item>
+        <item>Micra</item>
+        <item>Pathfinder</item>
+        <item>Primera</item>
+        <item>Qashqai</item>
+        <item>Terrano</item>
+        <item>ZX</item>
+    </string-array>
+
+    <string-array name="openArray">
+        <item>Any Model</item>
+        <item>Adam</item>
+        <item>Astra</item>
+        <item>Corsa</item>
+        <item>Insignia</item>
+        <item>Omega</item>
+        <item>Tigra</item>
+        <item>Vectra</item>
+        <item>Zafira</item>
+    </string-array>
+
+    <string-array name="peugeotArray">
+        <item>Any Model</item>
+        <item>106</item>
+        <item>107</item>
+        <item>205</item>
+        <item>208</item>
+        <item>306</item>
+        <item>405</item>
+        <item>508</item>
+        <item>605</item>
+        <item>807</item>
+        <item>Expert</item>
+        <item>ION</item>
+        <item>RCZ</item>
+    </string-array>
+
+    <string-array name="seatArray">
+        <item>Any Model</item>
+        <item>Altea</item>
+        <item>Exeo</item>
+        <item>Ibiza</item>
+        <item>Leon</item>
+        <item>Malaga</item>
+        <item>MII</item>
+        <item>Toledo</item>
+    </string-array>
+
+    <string-array name="volvoArray">
+        <item>Any Model</item>
+        <item>200-series</item>
+        <item>400-series</item>
+        <item>700-series</item>
+        <item>900-series</item>
+        <item>C30</item>
+        <item>C70</item>
+        <item>S40</item>
+        <item>S70</item>
+        <item>S80</item>
+        <item>S90</item>
+        <item>V50</item>
+        <item>V60</item>
+        <item>V70</item>
+        <item>Xc60</item>
+        <item>Xc70</item>
+        <item>Xc90</item>
+    </string-array>
+
+    <string name="make">Make</string>
+    <string name="model">Model</string>
+    <string name="registration_no">Registration Number</string>
+    <string name="engine_size">Engine Size</string>
+    <string name="description">Description</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="price">Price</string>
+    <string name="city">City</string>
+
+    <string name="loading">Loading. Please wait</string>
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="title_activity_track_my_car_fragment">Map</string>
+    <string name="no_posts">You have no car posts</string>
+    <string name="no_notification">There are no notifications</string>
+    <string name="no_reservations">There are no reservations</string>
+    <string name="title_activity_track_my_car">Map</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@drawable/login_background">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/loginlogo"
+        android:id="@+id/logo"
+        android:layout_marginTop="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/logo"
+        android:background="@color/colorloginEditText"
+        android:textColorHint="@color/white"
+        android:alpha="0.7"
+        android:hint="@string/email"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:id="@+id/password_editText"
+        android:layout_marginBottom="10dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/email_editText"
+        android:layout_below="@id/email_editText"
+        android:background="@color/colorloginEditText"
+        android:textColorHint="@color/white"
+        android:alpha="0.7"
+        android:hint="@string/password" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:id="@+id/login_button"
+        android:text="@string/login"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/password_editText"
+        android:background="@android:color/transparent"
+        android:textColor="@color/cream"
+        android:alpha="0.3" />
+
+    <Button
+        android:text="@string/register"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:id="@+id/register_button"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:textColor="@color/cream"/>
+</RelativeLayout>
